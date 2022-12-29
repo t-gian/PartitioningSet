@@ -190,3 +190,4 @@ int main()
         if (m + 1 <= n) // max partitions goes from 1 to n
             partitioning(n, m + 1, pos + 1, sol, val, maxN, bestSol, G);
     }
+}
